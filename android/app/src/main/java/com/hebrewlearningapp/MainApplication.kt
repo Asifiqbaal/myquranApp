@@ -1,4 +1,4 @@
-package com.hebrewlearningapp
+package com.learningapp
 
 import android.app.Application
 import com.facebook.react.PackageList

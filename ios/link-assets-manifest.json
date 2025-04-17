@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/29ltbukrabold.otf",
+      "sha1": "4c1795689e707c5aef2ee1cdb18da234f24ecd2b"
+    },
+    {
+      "path": "assets/fonts/29ltbukrabolditalic.otf",
+      "sha1": "2794f97743624cbac0dd8e74d0bde2cc0313cacf"
+    },
+    {
+      "path": "assets/fonts/29ltbukralight.otf",
+      "sha1": "ce5879248beb72e38060f218e583bc4e2d6f0895"
+    },
+    {
+      "path": "assets/fonts/29ltbukraregular.otf",
+      "sha1": "45c8059d0bc0259334fb37047dab0232f49342ad"
+    },
+    {
+      "path": "assets/fonts/29ltbukrasemibold.otf",
+      "sha1": "2f6f64132315ae51c7bc195ee1d760f4af7201e0"
+    }
+  ]
+}

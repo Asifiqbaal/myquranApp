@@ -15,6 +15,11 @@
 		7699B88040F8A987B510C191 /* libPods-HebrewLearningApp-HebrewLearningAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-HebrewLearningApp-HebrewLearningAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		94F1F2C4251148299216F4C4 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9CAF3B98510B6261153DFE21 /* PrivacyInfo.xcprivacy */; };
+		F3D4AC546BA94FF5AF746DBE /* 29ltbukrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8C27DC357C448EAB000B98A /* 29ltbukrabold.otf */; };
+		EA9D7E3B76E7456C8244D603 /* 29ltbukrabolditalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5CD1E5CBCC9A419698068638 /* 29ltbukrabolditalic.otf */; };
+		FD19E7CC06C148B799853216 /* 29ltbukralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBC10E40CE304B05A4D1E380 /* 29ltbukralight.otf */; };
+		5CE6CF4B48744B4D95D59522 /* 29ltbukraregular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EAD403B4AB94F21A3C7CF81 /* 29ltbukraregular.otf */; };
+		11E3ACDDE9BF42608D75EB48 /* 29ltbukrasemibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 858279542D6E4546AC72C82B /* 29ltbukrasemibold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-HebrewLearningApp-HebrewLearningAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HebrewLearningApp-HebrewLearningAppTests.release.xcconfig"; path = "Target Support Files/Pods-HebrewLearningApp-HebrewLearningAppTests/Pods-HebrewLearningApp-HebrewLearningAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CAF3B98510B6261153DFE21 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = HebrewLearningApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C8C27DC357C448EAB000B98A /* 29ltbukrabold.otf */ = {isa = PBXFileReference; name = "29ltbukrabold.otf"; path = "../assets/fonts/29ltbukrabold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5CD1E5CBCC9A419698068638 /* 29ltbukrabolditalic.otf */ = {isa = PBXFileReference; name = "29ltbukrabolditalic.otf"; path = "../assets/fonts/29ltbukrabolditalic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FBC10E40CE304B05A4D1E380 /* 29ltbukralight.otf */ = {isa = PBXFileReference; name = "29ltbukralight.otf"; path = "../assets/fonts/29ltbukralight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EAD403B4AB94F21A3C7CF81 /* 29ltbukraregular.otf */ = {isa = PBXFileReference; name = "29ltbukraregular.otf"; path = "../assets/fonts/29ltbukraregular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		858279542D6E4546AC72C82B /* 29ltbukrasemibold.otf */ = {isa = PBXFileReference; name = "29ltbukrasemibold.otf"; path = "../assets/fonts/29ltbukrasemibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +137,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0244A7CB4B8647CFAD767A70 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -152,6 +163,19 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		0244A7CB4B8647CFAD767A70 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				C8C27DC357C448EAB000B98A /* 29ltbukrabold.otf */,
+				5CD1E5CBCC9A419698068638 /* 29ltbukrabolditalic.otf */,
+				FBC10E40CE304B05A4D1E380 /* 29ltbukralight.otf */,
+				9EAD403B4AB94F21A3C7CF81 /* 29ltbukraregular.otf */,
+				858279542D6E4546AC72C82B /* 29ltbukrasemibold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -249,6 +273,11 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				94F1F2C4251148299216F4C4 /* PrivacyInfo.xcprivacy in Resources */,
+				F3D4AC546BA94FF5AF746DBE /* 29ltbukrabold.otf in Resources */,
+				EA9D7E3B76E7456C8244D603 /* 29ltbukrabolditalic.otf in Resources */,
+				FD19E7CC06C148B799853216 /* 29ltbukralight.otf in Resources */,
+				5CE6CF4B48744B4D95D59522 /* 29ltbukraregular.otf in Resources */,
+				11E3ACDDE9BF42608D75EB48 /* 29ltbukrasemibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
